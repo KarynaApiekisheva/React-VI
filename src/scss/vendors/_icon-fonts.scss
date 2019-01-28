@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?rds5r6');
+  src:  url('../fonts/icomoon.eot?rds5r6#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?rds5r6') format('truetype'),
+    url('../fonts/icomoon.woff?rds5r6') format('woff'),
+    url('../fonts/icomoon.svg?rds5r6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-art-and-design:before {
+  content: "\e91c";
+}
+.icon-new-document:before {
+  content: "\e91b";
+}
+.icon-user:before {
+  content: "\e901";
+}
+.icon-search:before {
+  content: "\e902";
+}
+.icon-expansion:before {
+  content: "\e903";
+}
+.icon-network:before {
+  content: "\e904";
+}
+.icon-add-plus:before {
+  content: "\e905";
+}
+.icon-home:before {
+  content: "\e906";
+}
+.icon-arrow-right:before {
+  content: "\e907";
+}
+.icon-cancel:before {
+  content: "\e908";
+}
+.icon-Checklists:before {
+  content: "\e909";
+}
+.icon-Companies:before {
+  content: "\e90a";
+}
+.icon-Contacts:before {
+  content: "\e90b";
+}
+.icon-Dashboard:before {
+  content: "\e90c";
+}
+.icon-Delete:before {
+  content: "\e90d";
+}
+.icon-Document:before {
+  content: "\e90e";
+}
+.icon-folder:before {
+  content: "\e90f";
+}
+.icon-Labs:before {
+  content: "\e910";
+}
+.icon-mail:before {
+  content: "\e911";
+}
+.icon-pencil:before {
+  content: "\e912";
+}
+.icon-Phone:before {
+  content: "\e913";
+}
+.icon-plus-arround:before {
+  content: "\e914";
+}
+.icon-plus-arround-full:before {
+  content: "\e915";
+}
+.icon-Preliminary-control:before {
+  content: "\e916";
+}
+.icon-Project-Details:before {
+  content: "\e917";
+}
+.icon-settings:before {
+  content: "\e918";
+}
+.icon-Project-tree:before {
+  content: "\e919";
+}
+.icon-Reports:before {
+  content: "\e91a";
+}
+.icon-checkmark:before {
+  content: "\e900";
+}

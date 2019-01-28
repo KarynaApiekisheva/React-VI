@@ -1,0 +1,201 @@
+
+
+
+.register_page_styles{
+	
+	.wrapper{
+		background: $bg-color-5;
+		display: flex;
+		align-items: center;
+	}
+
+	.container{
+		width: 100%;
+		max-width: 980px;
+		padding: 10px;
+	}
+
+	.head-login{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		padding: 0 50% 24px 10px;
+
+		.logo{
+			padding: 0;
+			min-width: 1px;
+		}
+
+		.leng-list{
+			@extend %listreset;
+			padding: 0 58px 0 0;
+			display: flex;
+
+			li{
+				padding: 6px;
+
+				&.active a{
+					background: $bg-color-6;
+					color: $white;
+				}
+			}
+
+			a{
+				text-decoration: none;
+				display: inline-block;
+				vertical-align: top;
+				width: 40px;
+				padding: 8px;
+				text-align: center;
+				color: #8f8f8f;
+				font-size: 14px;
+				border-radius: 5px;
+
+				&:hover{
+					background: $bg-color-6;
+					color: $white;
+				}
+			}
+		}
+	}
+
+	.login-two-columns{
+		background: $white;
+		display: flex;
+		border-radius: 5px;
+		padding: 0 0 47px;
+
+		.col{
+			padding:47px 62px 0;
+			width: 48%;
+
+			&:nth-child(even){
+				padding: 0;
+			}
+		}
+
+		.img-frame{
+			position: relative;
+			margin: -83px 0 0;
+
+
+			.description-text{
+				position: absolute;
+				top: 49px;
+    			left: 66px;
+				font-size: 20px;
+				font-weight: 600;
+				line-height: 1.5;
+			}
+		}
+	}
+
+	.registration-form{
+		.head-form{
+			display: flex;
+			justify-content: space-between;
+			margin:  0 0 32px;
+
+			h2{
+				margin: 0;
+			}
+
+			.step-counter{
+				font-size: 15spx;
+				color: $text-color-5;
+				padding: 3px 22px 0px 0;
+
+				mark{
+					background: none;
+					color: $text-color-4;
+				}
+			}
+		}
+
+		.row{
+			margin: 0 0 37px;
+
+			&:last-child{
+				margin: 0;
+			}
+		}
+
+		.radio-group{
+			margin: 0 0 36px;
+
+			.radio-btn{
+				float: left;
+				width: 50%;
+			}
+		}
+
+		.terms-box{
+			font-size: 13px;
+			padding:27px 22px;
+			border: 1px solid $border-color-5;
+
+			.custom-checkbox{
+				margin: 0 13px 0 0;
+			}
+
+			a{
+				text-decoration: underline;
+     			color: $text-color-4;
+     			white-space: nowrap;
+
+     			&:hover,
+     			&:active{
+     				text-decoration: none;
+     			}
+			}
+		}
+	}
+
+	.btn{
+		width: 100%;
+		&:last-child{
+			margin: 0;
+		}
+	}
+
+	.gray-text{
+		color: $text-color-7;
+		font-size: 16px;
+	}
+}
+
+.login_page_styles{
+	
+	.wrapper{
+		background: url(img/bg-01.jpg) no-repeat 50% 0;
+		background-size: cover;
+	}
+
+
+	.login-two-columns{
+		background: none;
+		justify-content: center;
+		padding: 5vh 0 0;
+
+		.col{
+			background: $white;
+			border-radius: 5px;
+			width: 52%;
+			padding: 58px 84px 40px;
+		}
+
+		.head-form{
+			margin: 0 0 46px;
+		}
+
+		.forgot-holder{
+			margin:-11px 0 28px;
+		}
+
+		.green-text{
+			font-size: 14px;
+			color: $base-color-1;
+			text-decoration: none;
+		}
+	}
+}
